@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #86340A;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+p {
+  color: #B4846C;
+  font-size: 20px;
+}
+
+.green {
+  text-align: justify;
+  color: #5E8B7E;
+}
+
+a {
+  text-decoration: none;
+  color: #E5B299;
+}
+
+h2 {
+  color: #2F5D62;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #FCDEC0;
+}
+
+.pink-box {
+  background: #F6E6E4;
+  padding: 50px;
+  margin: 200px;
+  box-shadow: 0px 2px 10px 2px #CA8A8B;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 50px;
+  color: #86340A;
+  margin: 8px 24px;
+}
+
+.btn-pink {
+  background-color: #86340A;
+  color: #F6E6E4;
+  padding: 8px 30px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-pink:hover {
+  color: #86340A;
+  background-color: #E5B299;
+}
+
+@media (max-width: 960px) {
+  .pink-box {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .pink-box {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  .pink-box {
+    width: 150px;
+  }
+}
